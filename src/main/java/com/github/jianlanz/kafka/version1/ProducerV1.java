@@ -8,7 +8,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 
 public class ProducerV1 {
-        private static String BOOTSTRAP_SERVERS = "127.0.0.1:9092";
+    private static String BOOTSTRAP_SERVERS = "127.0.0.1:9092";
 
     public static void main(String[] args) {
         // create producer properties
